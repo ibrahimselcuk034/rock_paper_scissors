@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+}
+
+#frame {
+	  background-color: rgb(248, 246, 246);
+    border: 4px solid orangered;
+    width: 400px;
+		height: 770px;
+    margin: auto;
+		border-radius: 15px;
+}
+
+.player {
+  text-decoration: none;
+  text-align: center;
+  background-color:  orange;
+  border: 3px solid orangered;
+	font-weight: bold;
+	width: 80%;
+	margin: auto;
+	border-radius: 15%;
+	font-size: 25px;
+	color: blue;
+}
+
+#player_name {
+	display: none;
+}
+
+#input {
+	text-align: center;
+  margin-top: 45%;
+}
+
+.choose {
+	text-decoration: none;
+  text-align: center;
+  background-color:  orange;
+  border: 3px solid orangered;
+	font-weight: bold;
+	width: 30%;
+	margin: auto;
+	border-radius: 10%;
+	font-size: 15px;
+} 
+
+#welcome {
+	margin-bottom: 20%;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 100px;
+	color: orangered;
+}
+
+#selectbtn {
+  display: none;
+	text-decoration: none;
+	background-color: orange;
+  color: black;
+	font-weight: bold;
+	width: 60%;
+	margin: auto;
+	border-radius: 10%;
+	border: 3px solid orangered;
+}
+
+#select1:hover {
+	background-color: orangered;
+	color: red;
+}
+
+#again {
+	display: none;
+	text-decoration: none;
+	background-color: blue;
+  color: white;
+	font-weight: bold;
+	width: 50%;
+	margin: auto;
+	border-radius: 10%;
+	border: 3px solid orangered;
+	height: 55px;
+	padding-top: 5px;
+	font-size: 25px;
+}
+
+#again:hover {
+	background-color: orangered;
+	border: 3px solid black;
+}
+
+#main {
+	display: none;
+	text-decoration: none;
+	background-color: blue;
+  color: white;
+	font-weight: bold;
+	width: 50%;
+	margin: auto;
+	border-radius: 10%;
+	border: 3px solid orangered;
+	height: 55px;
+	padding-top: 5px;
+	font-size: 25px;
+}
+
+#main:hover {
+	background-color: orangered;
+	border: 3px solid black;
+}
+
+#start {
+	text-decoration: none;
+	background-color: blue;
+  color: white;
+	font-weight: bold;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 10%;
+	border: 3px solid orangered;
+	height: 55px;
+	padding-top: 5px;
+	font-size: 25px;
+}
+
+
+#start:hover {
+	background-color: orangered;
+	border: 3px solid black;
+}
+
+#input {
+	background-color: orange;
+	color: rgba(0, 0, 255, 0.774);
+	font-weight: bold;
+	border: 3px solid blue;
+	font-size: 25px;
+}
+
+
+#result {
+	display: none;
+	background-color: orangered;
+	border: 3px solid black;
+	height: 55px;
+	color: black;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#player_img_rock {
+  display:none;
+	text-decoration: none;
+  text-align: center;
+  background-image: url('https://img.icons8.com/officel/90/000000/hand-rock.png');
+  border: 3px solid blue;
+	font-weight: bold;
+	height: 20%;
+	width: 40%;
+	margin: auto;
+	border-radius: 15%;
+	font-size: 25px;
+	color: blue;
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#player_img_paper {
+  display:none;
+	text-decoration: none;
+  text-align: center;
+  background-image: url('https://img.icons8.com/officel/80/000000/hand.png');
+  border: 3px solid blue;
+	font-weight: bold;
+	height: 20%;
+	width: 40%;
+	margin: auto;
+	border-radius: 15%;
+	font-size: 25px;
+	color: blue;
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#player_img_scissors {
+  display:none;
+	text-decoration: none;
+  text-align: center;
+  background-image: url('https://img.icons8.com/color/96/000000/hand-scissors--v1.png');
+  border: 3px solid blue;
+	font-weight: bold;
+	height: 20%;
+	width: 40%;
+	margin: auto;
+	border-radius: 15%;
+	font-size: 25px;
+	color: blue;
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#computer {
+	display: none;
+}
+#computer_img_rock {
+  display:none;
+	text-decoration: none;
+  text-align: center;
+  background-image: url('https://img.icons8.com/officel/90/000000/hand-rock.png');
+  border: 3px solid blue;
+	font-weight: bold;
+	height: 20%;
+	width: 40%;
+	margin: auto;
+	border-radius: 15%;
+	font-size: 25px;
+	color: blue;
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#computer_img_paper {
+  display:none;
+	text-decoration: none;
+  text-align: center;
+  background-image: url('https://img.icons8.com/officel/80/000000/hand.png');
+  border: 3px solid blue;
+	font-weight: bold;
+	height: 20%;
+	width: 40%;
+	margin: auto;
+	border-radius: 15%;
+	font-size: 25px;
+	color: blue;
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#computer_img_scissors {
+  display:none;
+	text-decoration: none;
+  text-align: center;
+  background-image: url('https://img.icons8.com/color/96/000000/hand-scissors--v1.png');
+  border: 3px solid blue;
+	font-weight: bold;
+	height: 20%;
+	width: 40%;
+	margin: auto;
+	border-radius: 15%;
+	font-size: 25px;
+	color: blue;
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#copyRight {
+	text-align: center;
+}

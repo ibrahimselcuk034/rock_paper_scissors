@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Rock-Paper-Scissors</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+	 crossorigin="anonymous">
+</head>
+
+	<body>
+		<div id="general" class="container">
+			<div id="frame" class="container">
+				<br>
+				<div id="player_name" class="player"></div>
+				<br>
+				<select id="selectbtn" class="form-select" aria-label="Default select example">
+  				<option class="dropdown-content" value='default' selected>Select Your Choose</option>
+  				<option id="select1" class="select-content" value="rock">Rock</option>
+  				<option id="select2" class="select-content" value="paper">Paper</option>
+  				<option id="select3" class="select-content" value="scissors">Scissors</option>
+				</select>	
+				<div id="player_img_rock" class="mx-auto players"></div>
+				<div id="player_img_paper" class="mx-auto players"></div>
+				<div id="player_img_scissors" class="mx-auto players"></div>
+				<br>
+
+				<div class="input-group mb-3">
+  				<input id="input" "type="text" class="form-control" placeholder="Enter your name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+				</div>
+				
+				<div id="start" class="player startbutton btn">Start</div>
+				<div id="welcome" class="container">Welcome to 
+					<span style="color:blue">	<br/>	Rock-Paper-Scissors <br/> </span> 
+				game.</div>
+				<div id="computer" class="mx-auto player">Player Two</div>
+				<br>
+				<div id="computer_img_rock" class="mx-auto players"></div>
+				<div id="computer_img_paper" class="mx-auto players"></div>
+				<div id="computer_img_scissors" class="mx-auto players"></div>
+				<br>
+				<div id="copyRight">2020 &copy; All rights reserved.</div>
+				<div id="result" class="player">Result</div>
+				<br>
+				<div id="main" class="player againbutton btn">Main</div>
+				<br>
+				
+				<div id="again" class="player againbutton btn">Play Again</div>
+				<br>
+				
+			</div>	
+		</div>
+
+  	<script src="script.js"></script>
+  </body>
+</html>
